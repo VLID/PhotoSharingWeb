@@ -1,0 +1,129 @@
+/*
+ * Final Project
+ * Yaoxi Luo
+ * COMP-3704
+ * main.css
+ * June 5,2016
+*/
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    padding: 0;
+}
+
+section {
+    position: absolute;
+    width: 100%;
+    top: 100px;
+}
+
+.mainPage {
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+}
+
+section p:not(.message .text-center) {
+    text-align: left;
+    font-size: 130%;
+}
+
+.s {
+    color: #3FFF0E;
+    font-size:20px;
+    margin-top:10px;
+}
+
+.w {
+    color: #FF0000;
+}
+
+.e {
+    font-size:20px; 
+    color:#cc0000; 
+    margin-top:10px;
+}
+
+a, span {
+    color: #377BB5;
+}
+
+input {
+    color: #777777;
+}
+
+::-webkit-input-placeholder {
+    color: #000;
+    opacity: 0.6;
+}
+
+select {
+    color: #000;
+    background-color: #14CC32;
+}
+
+#submit {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.box {
+    margin-top: 10px;
+    border: 2px solid #D4D4D4;
+    border-collapse: collapse;
+    padding: 2%;
+}
+
+.center {
+    margin-left: 20%;
+}
+
+#g {
+    margin-left: 10%;
+}
+
+#googleMap {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 500px;
+    height: 380px;
+}
+
+.viewP {
+    width: 60%;
+    padding:0px;
+}
+
+.photo {
+    width: 200px;
+    height: 200px;
+    padding: 0px;
+}
+
+.photosDiv{
+    width:200px;
+    height:200px;
+    position:relative;
+    display:inline-block;
+    padding: 0px;
+    margin: 10px;
+}
+
+footer { 
+    color: #777777;
+    text-align: center;
+    width: 100%; 
+    height: 40px; 
+    left: 0px; 
+}
+
+footer p {
+    font-size: 10px;
+    margin: 0; 
+    padding: 0; 
+    line-height: 40px; 
+}
